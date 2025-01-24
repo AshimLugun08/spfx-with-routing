@@ -1,0 +1,89 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.leaveMaster {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+/* LeaveMaster.module.scss */
+
+.leaveDataContainer {
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.MessageBar {
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-start; /* Align the button to the left */
+  margin-bottom: 20px; /* Add spacing below the button */
+}
+
+.getDataButton {
+  background-color: #0078d4; /* Example background color */
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #005a8c; /* Darker shade on hover */
+  }
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 2rem;
+}

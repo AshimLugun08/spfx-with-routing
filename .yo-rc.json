@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "20.11.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "abi-spfx",
+    "libraryId": "4c2782b3-c967-4187-9a6e-145b76e63e57",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "abi-spfx",
+    "solutionShortDescription": "abi-spfx description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
