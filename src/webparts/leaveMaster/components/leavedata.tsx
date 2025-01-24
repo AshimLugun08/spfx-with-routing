@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Link } from '@fluentui/react';
+// import { Link } from '@fluentui/react';
 import { Spinner, SpinnerSize } from '@fluentui/react/lib/Spinner';
 import { DetailsList, DetailsListLayoutMode, IColumn, SelectionMode } from '@fluentui/react/lib/DetailsList';
 import { MessageBar, MessageBarType } from '@fluentui/react/lib/MessageBar';
@@ -72,12 +72,12 @@ const LeaveData: React.FC<ILeaveDataProps> = ({ leaveItems, loading }) => {
       minWidth: 100,
       maxWidth: 150,
       onRender: (item: ILeaveItem) => (
-        <Link
-        href={`/sites/Ashim_Team_Site/_layouts/15/workbench.aspx/${item.Id}`}
-        underline
+        <a
+        href={`/sites/Ashim_Team_Site/_layouts/15/workbench.aspx/#${item.Id}`}
+        
       >
         Edit
-      </Link>
+      </a>
       ),
     },
   ];

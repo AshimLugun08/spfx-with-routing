@@ -76,7 +76,7 @@ export default class LeaveMaster extends React.Component<ILeaveMasterProps, ILea
   Get Data
 </a>
 
-            /    <a href="/sites/Ashim_Team_Site/_layouts/15/workbench.aspx/">
+           /    <a href="/sites/Ashim_Team_Site/_layouts/15/workbench.aspx/"> {"   "} 
 Home
 </a>
           </div>
@@ -93,7 +93,7 @@ Home
               element={<LeaveData leaveItems={leaveItems} loading={loading} />}
             />
             <Route
-              path="/data-page/:id"
+              path="/:id"
               element={<LeaveDataPage context={context} />}
             />
           </Routes>
